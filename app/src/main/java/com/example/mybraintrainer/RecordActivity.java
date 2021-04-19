@@ -32,7 +32,7 @@ public class RecordActivity extends AppCompatActivity {
         textViewRecord.setText(String.format("Количество верных ответов: %s\nПроцент верных ответов: %.4s %%\n\nРекорд: %s\n\n\n", (int) counterRight, percent, (int) record));
 
     }
-
+//2
     public void onClickBackToMain(View view) {
         Intent intentToMain = new Intent(this, MainActivity.class);
         startActivity(intentToMain);
